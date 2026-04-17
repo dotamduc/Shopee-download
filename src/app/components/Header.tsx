@@ -36,14 +36,18 @@ export function Header() {
         {/* Right Section: Social Icons */}
         <div className="flex items-center gap-3 mt-1">
           <a 
-            href="#" 
+            href="https://www.facebook.com/ShopeeVN/" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-gray-600 hover:text-[#EE4D2D] transition-colors"
             aria-label="Facebook"
           >
             <Facebook size={20} strokeWidth={1.5} />
           </a>
           <a 
-            href="#" 
+            href="https://www.instagram.com/shopee_VN/" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-gray-600 hover:text-[#EE4D2D] transition-colors"
             aria-label="Instagram"
           >
