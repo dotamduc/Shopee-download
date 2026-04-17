@@ -4,32 +4,32 @@ const features = [
   {
     icon: Truck,
     title: 'Hỗ trợ vận chuyển',
-    description: 'Miễn phí vận chuyển cho đơn hàng từ 0đ',
+    description: 'Trạng thái đơn hàng của bạn luôn được cập nhật chi tiết kể từ khi bạn đặt hàng',
   },
   {
     icon: Headphones,
     title: 'Hỗ trợ khách hàng',
-    description: 'Hỗ trợ khách hàng 24/7 qua chat và hotline',
+    description: 'Bộ phận Chăm Sóc Khách Hàng luôn sẵn sàng hỗ trợ bạn 24/7',
   },
   {
     icon: Sparkles,
     title: 'Gợi Ý Hôm Nay',
-    description: 'Khám phá sản phẩm phù hợp với sở thích của bạn',
+    description: 'Lựa chọn những sản phẩm phù hợp với bạn trong mục Gợi Ý Hôm Nay',
   },
   {
     icon: Shield,
     title: 'Phương thức thanh toán an toàn',
-    description: 'Đa dạng phương thức thanh toán được bảo mật',
+    description: 'Thanh toán dễ dàng và thuận tiện: Thanh toán khi nhận hàng hoặc Thanh toán trước bằng Thẻ Tín dụng/Ghi nợ.',
   },
   {
     icon: MessageCircle,
     title: 'Tính năng "Chat"',
-    description: 'Liên hệ trực tiếp với người bán dễ dàng',
+    description: 'Trò chuyện trực tiếp với người bán để được tư vấn thêm về sản phẩm. Bạn cũng có thể thương lượng về mức giá mong muốn với Người bán thông qua mục "Chat"',
   },
   {
     icon: CheckCircle,
     title: 'Shopee đảm bảo',
-    description: 'Hoàn tiền 100% nếu sản phẩm không đúng mô tả',
+    description: 'Shopee cam kết rằng số tiền bạn thanh toán sẽ được chuyển đến người bán sau khi bạn nhận được hàng. Chúng tôi luôn bảo vệ bạn!',
   },
 ];
 
