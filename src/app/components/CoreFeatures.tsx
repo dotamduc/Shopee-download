@@ -39,38 +39,38 @@ export function CoreFeatures() {
       <div className="max-w-[1140px] mx-auto px-6">
         {/* Slogan */}
         <div className="text-center mb-16 space-y-4">
-          <h2 className="text-4xl md:text-5xl font-bold" style={{ color: '#333333' }}>
+          <h2 className="text-3xl md:text-[32px] font-normal" style={{ color: '#333333' }}>
             Mua sắm mọi lúc, mọi nơi!
           </h2>
-          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-[#555555] max-w-3xl mx-auto">
             Tận hưởng các chương trình khuyến mãi hấp dẫn, siêu tiết kiệm đến từ các Shop bán hàng uy tín nhất.
           </p>
         </div>
 
         {/* Features Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-y-12">
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (
               <div 
                 key={index}
-                className="flex flex-col items-center text-center p-6 rounded-xl hover:shadow-lg transition-shadow"
+                className="flex flex-col items-center text-center px-4"
               >
                 {/* Icon Circle */}
                 <div 
-                  className="w-20 h-20 rounded-full flex items-center justify-center mb-4"
+                  className="w-20 h-20 rounded-full flex items-center justify-center mb-6"
                   style={{ backgroundColor: '#FFF5F3' }}
                 >
                   <Icon size={36} style={{ color: '#EE4D2D' }} />
                 </div>
 
                 {/* Title */}
-                <h3 className="text-xl font-bold mb-2" style={{ color: '#333333' }}>
+                <h3 className="text-lg md:text-[18px] font-normal mb-2" style={{ color: '#333333' }}>
                   {feature.title}
                 </h3>
 
                 {/* Description */}
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className="text-[#666666] text-[15px] leading-relaxed max-w-[280px]">
                   {feature.description}
                 </p>
               </div>
